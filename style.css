@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: rgb(9, 219, 191);
+    color: rgb(105, 105, 3);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: rgb(226, 226, 226);
+    text-decoration: nome;
+    margin-left: 15px;
+}
+
+.menu a:hover {
+    color: rgb(128, 126, 126);
+}
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
+
+.navegacao {
+    background-color: rgb(6, 124, 118);
+    color: rgba(4, 45, 82, 0.699);
+    display:inline-block;
+    width: 30%;
+    padding: 10px; 
+}
+
+.navegacao ul {
+    list-style: nome;
+    padding: 0;
+}
+
+.navegacao li {
+    margin-bottom: 10px;
+}
+
+.secao {
+    background-color: rgb(5, 88, 77);
+    color: rgb(0, 255, 255);
+    display: inline-block;
+    width: 70%;
+}
+
+.rodape {
+    background-color: rgb(89, 112, 112);
+    color: rgb(0, 0, 0);
+}   

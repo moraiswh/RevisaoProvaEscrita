@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cabecalho {
+    background-color: rgb(201, 0, 191);
+    color: rgb(121, 0, 115);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+.menu a:hover {
+    color: rgb(121, 0, 115);
+}
+
+
+.conteudo {
+    display: flex;
+}
+
+.navegacao {
+    background-color: rgb(201, 0, 191);
+    color: rgb(3, 3, 0);
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao li {
+    margin-bottom: 10px;
+}
+
+.secao {
+    background-color: rgb(121, 0, 115);
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+}
+
+
+.secao p {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-bottom: 10px;
+}
+
+
+
+.rodape {
+    background-color: rgb(red, green, blue);
+    color: rgb(red, green, blue);
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.redes a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
